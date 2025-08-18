@@ -5,6 +5,7 @@
   - Changelog.md, 빈 주피터 노트북(code.ipynb) 생성
 - 모델 개발 및 학습 파라미터/구조 기록
   - MODEL_NAME: CNN
+  - NN Layer: kernel_size=3, padding=2 - BatchNorm2d - LeakyReLU - MaxPool2d(kernel_size=2) / AvgPool2d(kernel_size=4) / fc1 - dropout - fc2
   - IMG_SIZE: 224 x 224, RGB
   - EPOCHS: 39
   - LEARNING_RATE: 0.00006, 
